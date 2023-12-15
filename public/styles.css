@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #f0f0f0; /* Fondo claro */
+}
+
+.navidad-header {
+    margin-bottom: 20px;
+}
+
+.navidad-header h1 {
+    color: #00539CFF; /* Azul oscuro, reemplaza con el color de tu logotipo */
+}
+
+.fecha-evento {
+    font-size: 18px;
+    color: #EEA47FFF; /* Amarillo dorado, reemplaza con un color complementario de tu logotipo si es necesario */
+}
+
+.fairplay {
+    font-size: 20px;
+    font-weight: bold;
+    color: #006B38FF; /* Verde, reemplaza con el color de 'fairplay' de tu logotipo */
+    margin-bottom: 30px;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.decoracion {
+    width: 100px; /* O el tamaño que desees */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#countdown {
+    font-size: 24px;
+    margin: 20px 0;
+    color: #006B38FF; /* Verde, para que coincida con 'fairplay' en tu logotipo */
+}
+
+#giftButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #00539CFF; /* Azul oscuro, para que coincida con tu logotipo */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease;
+}
+
+#giftButton:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+}
+
+#giftButton:not(:disabled):hover {
+    background-color: #006B38FF; /* Verde al pasar el ratón, para un efecto interactivo */
+}
+
+/* Añade aquí cualquier otro estilo que necesites */
